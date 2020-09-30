@@ -9,14 +9,40 @@ This repos means to fulfilled benefide.id x gadjian.com technical test
 
 ## Built With
 
-
 * [Node JS](https://nodejs.org/) - The server-side JavaScript runtime environment.
 ![Node.js](https://img.shields.io/badge/Node.js-v.10.16-green.svg?style=rounded-square)
 * [Express JS](https://expressjs.com/) - The web application framework 
 ![Express.js](https://img.shields.io/badge/Express.js-4.x-orange.svg?style=rounded-square)
 
 
+## Build Setup
+ 
+1. Open app's directory in CMD or Terminal
+2. Type `npm install`
+3. Make new file a called **.env**, set up first [here](#set-up-env-file)
+4. Open API folder and Turn on Web Server `cd api && nodemon`
+5. Turn on MySQL server using Third-party tool like xampp, etc.
+6. Create a database with the name library, 
+7. Open Postman desktop application or Chrome web app extension that has installed before
+8. Choose HTTP Method and enter request url.(ex. localhost:3000/)
+9. You can see all the end point [here](#end-points)
+
+
+## Set up .env file
+Open .env.example file and create new .env file on your favorite code editor, and copy paste this code below :
+```
+APP_PORT=8080
+APP_URL=http://localhost:8080/
+
+DB_HOST=localhost
+DB_USER=root
+DB_PASS= 
+DB_NAME=benefide
+```
+
+
 ## End Points
+
 ### Employee Routes
 
 - **GET** Get All Employees Endpoint Path: ```api/employees?search&sort&page&limit``` 
