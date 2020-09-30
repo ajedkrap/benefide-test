@@ -22,7 +22,7 @@ This repos means to fulfilled benefide.id x gadjian.com technical test
 3. Make new file a called **.env**, set up first [here](#set-up-env-file)
 4. Open API folder and Turn on Web Server `cd api && nodemon`
 5. Turn on MySQL server using Third-party tool like xampp, etc.
-6. Create a database with the name library, 
+6. Create a database with the name `benefide` and then import the benefide.sql dump file in './api', 
 7. Open Postman desktop application or Chrome web app extension that has installed before
 8. Choose HTTP Method and enter request url.(ex. localhost:3000/)
 9. You can see all the end point [here](#end-points)
