@@ -3,7 +3,6 @@ const { throw: throwValidator, safeString } = require("./validator")
 const exists = require("../models/employee/existsById")
 
 const phoneNumberRegex = new RegExp("^08([0-9]{10,12})$")
-// const nonNumbersRegex = new RegExp("^[0-9]*$")
 const stringRegex = new RegExp(/[0-9-!$%^&*()_+|~=`{}\[\]:";'<>?,.\/]/);
 
 module.exports = {

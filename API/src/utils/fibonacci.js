@@ -1,8 +1,7 @@
-function fibonacci(n) {
+module.exports = (n) => {
   let value = 0
   let result = ""
   const numbers = []
-  if (n < 1) return "No Input Value"
   numbers.push(value)
   if (n > 1) {
     value++
@@ -24,6 +23,3 @@ function fibonacci(n) {
   // console.log(numbers.join(' '))
   return result
 }
-
-const data = fibonacci(10)
-console.log(data)

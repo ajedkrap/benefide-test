@@ -20,7 +20,7 @@ app.use(morgan("dev"));
 app.use(cors());
 
 app.use("/api/employees", require("./src/routes/employee"))
-// app.use("/api", require("./src/routes/others"))
+app.use("/api", require("./src/routes/others"))
 
 app.get("/", (_, res) => {
   res.status(200).send({
@@ -29,13 +29,11 @@ app.get("/", (_, res) => {
   })
 });
 
-
 server.listen(APP_PORT, (err) => {
   if (err) {
     throw err;
   }
   const network = os.networkInterfaces()
   console.log(`IP address: ${network.en0[1].address}`)
-  // console.log(network)
   console.log("Express app listening on port " + APP_PORT)
 });
