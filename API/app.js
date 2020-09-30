@@ -19,8 +19,14 @@ app.use(bodyParser.json());
 app.use(morgan("dev"));
 app.use(cors());
 
+app.use("/api/employees", require("./src/routes/employee"))
+// app.use("/api", require("./src/routes/others"))
+
 app.get("/", (_, res) => {
-  res.status(200).send("Backend is running")
+  res.status(200).send({
+    status: true,
+    message: "Backend is Running"
+  })
 });
 
 
