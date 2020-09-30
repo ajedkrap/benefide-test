@@ -1,5 +1,3 @@
-# benefide-test
-
 <h1 align="center">Benefide test</h1>
 
 This repos means to fulfilled benefide x gadjian.com technical test for Back End Developers
