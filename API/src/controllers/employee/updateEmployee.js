@@ -10,7 +10,7 @@ module.exports = async (req, res) => {
   else {
     try {
       const updatedEmployee = await updateEmployee(passed)
-      res.status(201).send(response(status, message, updatedEmployee))
+      res.status(200).send(response(status, message, updatedEmployee))
     } catch (e) {
       res.status(500).send(response(false, e.message))
     }

@@ -10,7 +10,7 @@ module.exports = async (req, res) => {
   else {
     try {
       await deleteEmployee(passed)
-      res.status(201).send(response(status, message))
+      res.status(204).send(response(status, message))
     } catch (e) {
       res.status(500).send(response(false, e.message))
     }
