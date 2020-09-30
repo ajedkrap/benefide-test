@@ -1,2 +1,2 @@
 # benefide-test
-This repos means to fulfilled Nutech technical test
+This repos means to fulfilled benefide technical test
