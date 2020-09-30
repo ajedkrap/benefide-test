@@ -1,6 +1,8 @@
 <h1 align="center">Benefide test</h1>
 
-This repos means to fulfilled benefide x gadjian.com technical test for Back End Developers
+
+This repos means to fulfilled benefide.id x gadjian.com technical test
+
 
 <div align="center"> <img src="https://img.shields.io/github/watchers/ajedkrap/benefide-test?style=social" alt="watchers"/> <img src="https://img.shields.io/github/last-commit/ajedkrap/benefide-test" alt="last-commit" /> </div>
 
